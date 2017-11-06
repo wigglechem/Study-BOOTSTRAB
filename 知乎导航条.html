@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="bootstrap.css">
+    <title>知乎导航条</title>
+<style type="text/css">
+body{
+    margin-top:50px !important;
+}
+.navbar-default{
+    background-image:-moz-linear-gradient(center top ,#086ed5,#055db5);
+}
+.navbar-header{
+    margin-top:-3px;
+}
+.container{
+    width:960px !important;
+    padding:0px !important;
+}
+#icon{
+    background:-webkit-linear-gradient(top,#0e7bef,#0d73da);
+}
+.glyphicon{
+    color:white;
+}
+.navbar-nav a{
+    color:white !important
+}
+#btn{
+    background:-webkit-linear-gradient(top,#0e7bef,#0d73da);
+}
+</style>
+</head>
+<body style="height:2000px">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+        </div>
+        <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input style="width:320px" type="text" class="form-control" placeholder="搜索问题、话题或人" name="">
+                <span id="icon" class="input-group-addon "><a href="#"><span class="glyphicon glyphicon-search"></span></a></span>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">话题</a></li>
+            <li><a href="#">发现</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册知乎</a></li>
+            <li><a href="#">登录</a></li>
+
+        </ul>
+        <button id="btn" class="btn btn-primary navbar-btn navbar-right" type="button" >提问</button>
+
+    </div>
+
+
+
+
+
+</nav>
+</body>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+     <script src="jquery-3.2.1.min.js"></script>
+     <script src="bootstrap.js"></script>
+</html>

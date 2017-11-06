@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="bootstrap.css">
+    <title>bootstrap 切换NAV</title>
+<style type="text/css">
+.tab-content{
+    border:1px #ddd solid;border-top:none;padding:50px;border-radius:0 0 5px 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <br><br>
+    <div style="width:400px">
+         <ul class="nav nav-tabs">
+        <li class="active"><a href="#a" data-toggle="tab">one</a></li>
+        <li><a href="#b" data-toggle="tab">two</a></li>
+        <li><a href="#c" data-toggle="tab">three</a></li>
+
+    </ul>
+    <ul class="tab-content">
+        <li id="a" class="tab-pane fade in active">aaaa</li>
+        <li id="b" class="tab-pane fade">bbbb</li>
+        <li id="c" class="tab-pane fade">cccc</li>
+
+    </ul>
+</div>
+
+
+
+<div style="width:400px">
+    <ul class="nav nav-tabs" id="myTabs">
+        <li class="active"><a href="#a1" data-toggle="tab">one</a></li>
+        <li><a href="#b1" data-toggle="tab">two</a></li>
+        <li><a href="#c1" data-toggle="tab">three</a></li>
+
+    </ul>
+    <ul class="tab-content">
+        <li id="a1" class="tab-pane fade in active">aaaa</li>
+        <li id="b1" class="tab-pane fade">bbbb</li>
+        <li id="c1" class="tab-pane fade">cccc</li>
+
+    </ul>
+</div>
+
+
+ <br><br>
+    <div style="width:400px">
+         <ul class="nav nav-tabs"  id="myTabs" >
+        <li class="active"><a href="#a3" data-toggle="tab">one</a></li>
+        <li><a href="#b3" data-toggle="tab">two</a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown" data-toggle="dropdown">three <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#c3" data-toggle="tab">child1</a></li>
+                <li><a href="#d3" data-toggle="tab">child1</a></li>
+                <li><a href="#e3" data-toggle="tab">child1</a></li>
+            </ul>
+
+        </li>
+
+    </ul>
+    <ul class="tab-content">
+        <li id="a3" class="tab-pane fade in active">aaaa</li>
+        <li id="b3" class="tab-pane fade">bbbb</li>
+        <li id="c3" class="tab-pane fade">cccc</li>
+        <li id="d3" class="tab-pane fade">ddddd</li>
+        <li id="e3" class="tab-pane fade">eeeee</li>
+    </ul>
+</div>
+
+
+
+
+</div>
+</body>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+     <script src="jquery-3.2.1.min.js"></script>
+     <script src="bootstrap.js"></script>
+
+</html>

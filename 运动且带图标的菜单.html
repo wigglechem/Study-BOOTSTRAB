@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="bootstrap.css">
+    <title>bootstrap 运动且带图标的菜单</title>
+<style type="text/css">
+.my-btnstyle button{
+    width:85px;
+    height:50px;
+    border:none;
+    background:#f6f8f8;
+}
+.my-btnstyle .dropdown-menu{
+    animation:0.3s linear fadeIn;
+}
+@keyframes fadeIn{
+    0%{opacity:0;transform:translateY(-20px);}
+    100%{opacity:1;transform:translateY(0px);}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<br><br>
+<div class="col-lg-4">
+        <div class="dropdown my-btnstyle ">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Plugins
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">action</a></li>
+                <li><a href="#">action</a></li>
+                <li><a href="#">action</a></li>
+                <li><a href="#">action</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+
+</body>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+     <script src="jquery-3.2.1.min.js"></script>
+     <script src="bootstrap.js"></script>
+</html>
